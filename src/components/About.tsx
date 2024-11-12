@@ -15,7 +15,8 @@ export default function About(){
       <h1 className="title-font underline  sm:text-4xl text-3xl mb-4 -mt-10 font-medium text-gray-900">
        About ME </h1>
         
-       <h2 className="text-3xl "> I am </h2>
+       <h2 className="text-3xl "> I am Daniyal Pervaiz </h2>
+        
      
        
       
