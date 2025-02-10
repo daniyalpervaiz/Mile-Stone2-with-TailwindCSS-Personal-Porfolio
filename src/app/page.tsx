@@ -7,11 +7,11 @@ import Skills from "@/components/Skills";
 export default function Home() {
   return (<div>
 
-
+ <br />
     <About />
-    <Projects />
-    <Skills />
-    <Contact />
+    <Projects /> <br /> <br />
+    <Skills /><br /> <br />
+    <Contact /> <br /> 
 
 
   </div>
