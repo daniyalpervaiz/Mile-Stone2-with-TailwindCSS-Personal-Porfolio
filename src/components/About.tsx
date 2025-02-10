@@ -1,21 +1,21 @@
-"use client"
+
 import Image from "next/image"
 import Link from "next/link"
 
 export default function About(){
     return (
         <div>
-            <section className="text-gray-600 bg-gray-300 body-font mx-16 rounded-xl">
+            <section className="text-gray-800 bg-sky-800 border-2 body-font mx-16 rounded-xl">
   <div className="container mx-auto flex px-15 py-10  md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full  md:w-1/2 w-5/6 mb-10 md:mb-0 ">
- <Image src={"/aboutpic2.jpg"} width={280} height={40} alt="pic" className="rounded-2xl mx-auto "  />
+ <Image src={"/aboutpic2.jpg"} width={280} height={40} alt="pic" className="rounded-full mx-auto "  />
 
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col  md:items-start md:text-left items-center text-center ">
       <h1 className="title-font underline  sm:text-4xl text-3xl mb-4 -mt-10 font-medium text-gray-900">
        About ME </h1>
         
-       <h2 className="text-3xl "> I am Daniyal Pervaiz </h2>
+       <h2 className="text-3xl text-gray-900"> I am Daniyal Pervaiz </h2>
         
      
        
@@ -42,3 +42,8 @@ export default function About(){
 
     )
 }
+
+
+
+
+
