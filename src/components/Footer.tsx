@@ -7,8 +7,8 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
-    return (<div><footer className="text-gray-600 body-font">
-        <div className="container bg-black px-5 py-2 mx-auto flex items-center sm:flex-row flex-col">
+    return (<div><footer className="text-gray-600 body-font ">
+        <div className="container bg-black px-5 py-2 mx-auto flex items-center sm:flex-row flex-col border-2">
             <Image src="/dp-logo.jpg" alt="logo" width={60} height={100} className="rounded-3xl ml-3"></Image>
             
             <p className="text-sm text-gray-500 sm:ml-2 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
