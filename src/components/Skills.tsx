@@ -3,7 +3,7 @@ import { IoLogoCss3 } from "react-icons/io";
 import { RiJavascriptFill } from "react-icons/ri";
 export default function Skills() {
     return (<div id="skills">
-        <section className="text-gray-600 body-font  mx-16 rounded-xl">
+        <section className="text-gray-600 body-font mx-16 rounded-xl bg-sky-800 border-2">
             <div className="container px-5 py-24 mx-auto">
                 <h1 className="title-font text-center  sm:text-4xl underline text-3xl mb-4 -mt-10 font-medium text-gray-900 ">
                     Skills
@@ -19,7 +19,7 @@ export default function Skills() {
                             </h2>
                             <div className="bg-gray-400">
                                 <div className="lg:w-[100%] bg-red-600 h-2 " ></div></div>
-                            <p className="leading-relaxed text-base text-right">
+                            <p className="leading-relaxed text-base text-right text-black">
                                 100%
                             </p>
                         </div>
@@ -32,7 +32,7 @@ export default function Skills() {
                             </h2>
                             <div className="bg-gray-400">
                                 <div className="lg:w-[90%] bg-green-600 h-2 " ></div></div>
-                            <p className="leading-relaxed text-base text-right">
+                            <p className="leading-relaxed text-base text-right text-black">
                                 90%
                             </p>
                         </div>
@@ -47,7 +47,7 @@ export default function Skills() {
                             </h2>
                             <div className="bg-gray-400">
                                 <div className="lg:w-[80%] bg-blue-600 h-2 " ></div></div>
-                            <p className="leading-relaxed text-base text-right">
+                            <p className="leading-relaxed text-base text-right text-black">
                                 80%
                             </p>
                         </div>
